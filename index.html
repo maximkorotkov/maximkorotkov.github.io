@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta name='viewport' content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="resources/img/coding.png">
+        <link rel="stylesheet" type='text/css' href="vendors/css/normalize.css">
+        <link rel="stylesheet" type='text/css' href="vendors/css/ionicons.min.css">
+        <link rel='stylesheet' type="text/css" href='resources/css/style.css'>
+        <link rel='stylesheet' type="text/css" href='resources/css/queries.css'>
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        <title>WebDevHut - Welcome</title>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="vendors/js/jquery.waypoints.min.js"></script>
+        <script src="resources/js/script.js"></script>
+    </head>
+    
+    <body>
+        <header>
+            <nav>
+                <div class="row">
+                    <img src="resources/img/coding.png" alt="WebDevHut logo" class='logo'>
+                    <ul class="main-nav js--main-nav">
+                        <li><a href="#about">About Project</a></li>
+                        <li><a href="#creations">My Creations</a></li>
+                        <li><a href="#contacts">Contact me</a></li>
+                    </ul>
+                    <a class='mobile-nav-icon js--nav-icon'><i class="ion-navicon-round"></i></a>
+                </div>
+            </nav>
+            <div class="hero-text-box">
+               <h1 id='primary-h1'><span id='sp1'>Hi</span>, my name is <span id='sp2'>Max</span><br><span id='sp3'>Welcome</span> to my <span id='sp4'>Web Development</span> hut<br>I am <span id='sp5'>glad</span> to share all the progress here</h1>
+               <h1 id="mobile-h1"><span id='sp1'>Hi</span>, my name is <span id='sp2'>Max</span><br><span id='sp3'>Welcome</span></h1>
+           </div>
+        </header>
+        
+        <section class="section-about" id='about'>
+            <div class="row">
+                <h2>About</h2>
+                <p class='long-copy' id='about_p'>
+                    &emsp;I dived into the coding world in January, 2017. Tried different things, earned lots of bumps on my forehead &mdash; we all did, right? Eventually, i understood that web developing is what i enjoy the most. I am still very inexperienced and learn new things, so current version of that website might change its look in the future!
+                </p>
+                <br>
+                <br>
+            </div> 
+            <h2 id='stack_top'>This is the stack i've mastered</h2>
+            <ul class="grid">
+                <li>
+                    <img class='stack_img' src="resources/img/html.png" alt="HTML5">
+                </li>
+                <li>
+                    <img class='stack_img' src="resources/img/css.png" alt="CSS3">
+                </li>
+                <li>
+                    <img class='stack_img' src="resources/img/js.png" alt="Javascript">
+                </li>
+                <li>
+                    <img class='stack_img' src="resources/img/jQurery.gif" alt="jQuery">
+                </li>
+            </ul>
+            <ul class="grid">
+                <li>
+                    <img class='stack_img' src="resources/img/bootstrap.png" alt="Twitter Bootstrap">
+                </li>
+                <li>
+                    <img class='stack_img' src="resources/img/git.png" alt="Git">
+                </li>
+                <li>
+                    <img class='stack_img' src="resources/img/Mongo2.png" alt="MongoDB">
+                </li>
+                <li>
+                    <img class='stack_img' src="resources/img/node.png" alt="NodeJS">
+                </li>
+            </ul>
+            <br>
+            <br>
+            <h5 style='text-align: center;' id='stack_top'>Currently focused on learning...</h5>
+            <ul class="grid">
+                <li><img class="stack_img grayed_out" src="resources/img/react.png"></li>
+                <li><img class="stack_img grayed_out" src="resources/img/redux.png"></li>
+                <li><img class="swift" src="resources/img/swift.png" alt="Swift Programming Language"></li>
+            </ul>
+        </section>
+        
+        <section class="section-creations" id='creations'>
+            <div class="row">
+                <h2>My creations</h2>
+                <br>
+                <div class="showcase">
+                    <img src="resources/img/dornan.png" alt="Talking with sgt.Dornan">
+                    <p id='sgt_p'><span class="game_name"><a target="_blank" href="games/sgtDornan/index.html">Talking with sgt.Dornan</a></span> is a reincarnation of a legendary dialogue from a not less legendary game &mdash; Fallout 2. Try to avoid being killed or shout at by angry sergeant Arch Dornan, or you will be standing on that guard duty for the rest of your life! This piece is absolutely gold and will put a smile on everyones face. But now you can rewind that experience in your browser! Done in pure HTML, CSS and JS.</p>
+                    <div class="clear"></div>
+                </div>
+                <div class="showcase">
+                    <img id='bio' src="resources/img/bioshock.png" alt="Bioshock pipe game">
+                    <p id='bio_p'>I was inspired to create <span class="game_name"><a target="_blank" href="games/Bioshock/index.html">this game</a></span> after playing Bioshock once again, 10 years after i did so for the first time. I caught myself thinking that this mini-game is so simple, yet fun and, sometimes, challenging. Creating this game in HTML, CSS and JS was a challenge itself! Thankfully, i had a friend, who was eager to help me out. </p>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section-contacts" id='contacts'>
+            <div class="row">
+                <h2>You can reach me through one of these services <br>(pick the one you like more)</h2>
+                <ul class="contacts-nav">
+                    <li><a target="_blank" href="https://vk.com/jet_fighter_07">Vkontakte</a></li>
+                    <li><a href="mailto:megalodonrus@gmail.com">Gmail</a></li>
+                    <li><a target="_blank" href="https://telegram.me/jetfighter07">Telegram</a></li>
+                </ul>      
+            </div>
+        </section>
+        
+        <footer>
+            <p>&copy; 2017 Maxim Korotkov</p>
+        </footer>
+    </body>
+</html>
